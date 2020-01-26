@@ -1,0 +1,10 @@
+mailoo/main.py
+__pycache__
+mailoo/__pycache__
+mailoo/emails.txt
+mailoo/main.html
+mailoo.egg-info/*
+testes/*
+badges/*
+build/*
+dist/*
