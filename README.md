@@ -1,6 +1,5 @@
 # Mailoo
 ![OpenSource](https://img.shields.io/static/v1?label=GitHub&message=Opensource&color=blue&logo=github&logoColor=violet)
-![BuildPassing](https://img.shields.io/static/v1?label=build&message=passing&color=brightgreen)
 ![PythonVersion](https://img.shields.io/static/v1?label=python&message=>=3.6&color=brightgreen&logo=python&logoColor=white)
 [![Pypi](https://img.shields.io/static/v1?label=Pypi&logo=pypi&logoColor=white&message=v1.0.2&color=9f55ff)](https://pypi.org/project/mailoo/)
 
