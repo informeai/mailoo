@@ -6,34 +6,37 @@
 
 [![HitCount](https://hits.dwyl.com/informeai/mailoo.svg)](http://hits.dwyl.com/informeai/mailoo)
 
-Modulo Python que facilita o envio de Emails  usando  provedores `SMTP`. 
 
-Com funçoes de carregamento de conteudo de arquivos, à escritas de `html` in-line. 
+Python module that facilitates sending Emails using providers
+`SMTP`. 
 
-O mesmo proporciona de forma facil e com poucas linhas a criaçao e envio de emails.
+With functions for loading content from files, writing to
+`html` in-line. 
 
-Para os amantes de `Email-Marketing` ou Entusiastas em geral.
+It provides easily and with few lines the creation and sending of emails.
 
-Suporte para Versao 3 de Python
+For lovers of `Email-Marketing` or Enthusiasts in general.
 
-### Instalaçao:
+Support for Python Version 3
+
+### Installation:
 ```
  $ pip install mailoo
 ```
 
-### Uso
+### Use
 ```
 >> import mailoo
 
->> email = mailoo.Mail(email_user, key_pass)   # email_user -> email do usuário.
+>> email = mailoo.Mail(email_user, key_pass)   # email_user -> email the user.
 
-                                               # key_pass -> Chave de Aplicativo 
-                                               -> GMAIL, ou senha do email nos 
-                                               demais casos.
+                                               # key_pass -> Key of application
+                                               -> GMAIL, or email password us
+                                               other cases
 
 >> email.send(subject,msg,email)               # Envio do email...
 ```
-### Outros Usos
+### Other Uses
 ```
 ============
 Emails.txt:
@@ -44,38 +47,41 @@ Emails.txt:
 
 >> email.send(subject,msg, Emails.txt)
 
-######### OU #########
+######### OR #########
                                             
->> email.send(subject,file.html, arquivo.txt)  # arquivo html para varios emails.
+>> email.send(subject,file.html, arquivo.txt)  # html file for various emails.
 
-                                               # file.html -> arquivo html a ser 
-                                               enviado no lugar de uma mensagem 
-                                               comum.
+                                               # file.html -> html file to be
+                                               sent in place of a message
+                                               common.
 
 ```
 
 ## Características
-* Envio de Varios emails com simplicidade.
+* Sending several emails with simplicity.
 
-* Escolha automática de envio via SSL/TLS.
+* Automatic choice of sending via SSL / TLS.
 
-* Escreva mensagens simples ou insira texto html.
+* Write simple messages or enter html text.
 
-* Leitura e envio de conteudo de arquivo html/txt.
+* Reading and sending html / txt file content.
 
 ### Obs:
 ```
-O modulo usa os servidores de saída dos provedores de emails do usuário.
+The module uses the outgoing servers of the user's email providers.
+
 EX: GMAIL, OUTLOOK, HOTMAIL,YAHOO.
 
-Portanto Cuidado com os Limites estabelecidos por esses provedores, pois os
-mesmos estabelecem políticas de controle de envio. No geral os mesmos possuem
-limites MÁXIMOS DE ENVIO de 300 emails/dia.
-Observando e Respeitando os limites estabelecidos, usem o modulo a vontade...
+So beware of the Limits set by these providers, as the
+they establish shipping control policies. In general they have
+MAXIMUM SHIPPING limits of 300 emails / day.
+Observing and Respecting the established limits, use the module at will ...
 ```
-## Contato:
+## Contact:
 @informeai
 
-[![Facebook](https://img.shields.io/static/v1?label=facebook&style=social&logo=Facebook&message=page)](https://www.facebook.com/informeai/)
-[![Instagram](https://img.shields.io/static/v1?label=instagram&style=social&logo=Instagram&message=perfil)](https://www.instagram.com/informeaioficial/)
-[![Twitter](https://img.shields.io/static/v1?label=twitter&style=social&logo=Twitter&message=desenvolvedor)](https://twitter.com/WellingtonGade4)
+[Facebook](https://www.facebook.com/informeai/)
+
+[Instagram](https://www.instagram.com/informeaioficial/)
+
+[Twitter Dev](https://twitter.com/WellingtonGade4)

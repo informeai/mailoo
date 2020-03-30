@@ -65,7 +65,7 @@ class Mail:
                 content_html = arquivo.read()
                 arquivo.close()
         except FileNotFoundError:
-            print(f'ARQUIVO: \033[1;91m{self.file}\033[0;0m não Existe.\n')
+            print(f'ARQUIVO: \033[1;91m{self.file}\033[0;0m4 não Existe.\n')
         else:
             print(f'Arquivo Lido com Sucesso.\n')
             
