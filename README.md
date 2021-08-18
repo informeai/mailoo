@@ -3,7 +3,6 @@
 ![PythonVersion](https://img.shields.io/static/v1?label=python&message=>=3.6&color=brightgreen&logo=python&logoColor=white)
 [![Pypi](https://img.shields.io/static/v1?label=Pypi&logo=pypi&logoColor=white&message=v1.0.2&color=9f55ff)](https://pypi.org/project/mailoo/)
 
-[![HitCount](https://hits.dwyl.com/informeai/mailoo.svg)](http://hits.dwyl.com/informeai/mailoo)
 
 
 Python module that facilitates sending Emails using providers
@@ -76,6 +75,9 @@ they establish shipping control policies. In general they have
 MAXIMUM SHIPPING limits of 300 emails / day.
 Observing and Respecting the established limits, use the module at will ...
 ```
+
+View is [license](./LICENSE).
+
 ## Contact:
 @informeai
 
